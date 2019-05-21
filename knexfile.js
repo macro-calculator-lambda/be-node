@@ -30,9 +30,9 @@ module.exports = {
   production: {
     client: 'postgresql',
     connection: {
-      // database: 'users',
-      // user:     'username',
-      // password: 'password'
+      database: 'users',
+      user:     'username',
+      password: 'password',
       filename: './data/users.sqlite3'
     },
     useNullAsDefault: true,
