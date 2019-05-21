@@ -18,6 +18,8 @@ exports.up = function(knex, Promise) {
             .notNullable();
         tbl.string('goal')
             .notNullable();
+        tbl.string('exercise')
+            .notNullable();
   })
 };
 
